@@ -12,5 +12,6 @@ namespace EFCoreMainPractice.Data
         }
 
         public DbSet<Game> Games { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
